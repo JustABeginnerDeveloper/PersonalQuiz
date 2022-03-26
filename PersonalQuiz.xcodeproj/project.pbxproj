@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4408882327EF6E070070AC59 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408882227EF6E070070AC59 /* Question.swift */; };
 		44C52DE327EEF894005B4B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C52DE227EEF894005B4B69 /* AppDelegate.swift */; };
 		44C52DE527EEF894005B4B69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C52DE427EEF894005B4B69 /* SceneDelegate.swift */; };
 		44C52DE727EEF894005B4B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C52DE627EEF894005B4B69 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4408882227EF6E070070AC59 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		44C52DDF27EEF894005B4B69 /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C52DE227EEF894005B4B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C52DE427EEF894005B4B69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,15 +58,56 @@
 		44C52DE127EEF894005B4B69 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				44C52DE227EEF894005B4B69 /* AppDelegate.swift */,
-				44C52DE427EEF894005B4B69 /* SceneDelegate.swift */,
-				44C52DE627EEF894005B4B69 /* ViewController.swift */,
-				44C52DE827EEF894005B4B69 /* Main.storyboard */,
-				44C52DEB27EEF895005B4B69 /* Assets.xcassets */,
-				44C52DED27EEF895005B4B69 /* LaunchScreen.storyboard */,
-				44C52DF027EEF895005B4B69 /* Info.plist */,
+				44C52DF827EEF928005B4B69 /* Storyboards */,
+				44C52DF627EEF8B1005B4B69 /* ViewControllers */,
+				44C52DFA27EEF979005B4B69 /* Models */,
+				44C52DF927EEF95A005B4B69 /* Resourses */,
+				44C52DF727EEF8CD005B4B69 /* Supporting */,
 			);
 			path = PersonalQuiz;
+			sourceTree = "<group>";
+		};
+		44C52DF627EEF8B1005B4B69 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44C52DE627EEF894005B4B69 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44C52DF727EEF8CD005B4B69 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				44C52DE227EEF894005B4B69 /* AppDelegate.swift */,
+				44C52DE427EEF894005B4B69 /* SceneDelegate.swift */,
+				44C52DF027EEF895005B4B69 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		44C52DF827EEF928005B4B69 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				44C52DE827EEF894005B4B69 /* Main.storyboard */,
+				44C52DED27EEF895005B4B69 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		44C52DF927EEF95A005B4B69 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				44C52DEB27EEF895005B4B69 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		44C52DFA27EEF979005B4B69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4408882227EF6E070070AC59 /* Question.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C52DE727EEF894005B4B69 /* ViewController.swift in Sources */,
+				4408882327EF6E070070AC59 /* Question.swift in Sources */,
 				44C52DE327EEF894005B4B69 /* AppDelegate.swift in Sources */,
 				44C52DE527EEF894005B4B69 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,7 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9FK38VJ3T7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9FK38VJ3T7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
